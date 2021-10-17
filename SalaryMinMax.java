@@ -1,12 +1,10 @@
 class Solution {
     public double average(int[] nums) {
      
-        
         int max = 0;
         int min = 9999999;
         int n = nums.length;
         int sum=0;
-        
         
         double avg = 0;
         
