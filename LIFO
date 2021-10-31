@@ -1,0 +1,15 @@
+#DATA STRUCTURE:LFIO QUEUE
+
+import queue
+q=queue.LifoQueue()
+#INSERT ITEMS AT THE HEAD OF THE QUEUE
+print("Last In:")
+for x in range(5):
+    q.put(str(x))
+    print(x,end="\t")
+print()
+
+#EXTRACT ITEMS FROM THE HEAD OF THE QUEUE
+print("First Out:")
+while not q.empty():
+    print(q.get(),end="\t")
