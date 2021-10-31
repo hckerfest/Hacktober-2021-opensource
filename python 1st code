@@ -1,0 +1,11 @@
+words=[
+    'red','green','black','pink','black','white','black','pyhton',
+    'white','black','orange','pink','pink','red','red','white','orange',
+    'white','black','pink','green','teal','pink','green','pink',
+    'white','orange','orange','red',
+]
+
+from collections import Counter
+word_counts=Counter(words)
+top_three=word_counts.most_common(3)
+print(top_three) 
